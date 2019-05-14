@@ -53,7 +53,7 @@ class RpnInvoker {
                     }
                 }
             }
-            positionIndex++
+            positionIndex = positionIndex + 2  //consider empty space as one of position
         }
     }
 
